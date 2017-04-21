@@ -1,0 +1,88 @@
+div.gb{
+display: flex;
+font-size: 13px;
+justify-content: flex-end;
+min-width: 815px;
+}
+
+div.search{
+  width: 350px;
+  min-height: 20px;
+}
+
+input.search{
+height: 34px !important;
+width: 100%;
+}
+
+div.logo{
+  padding-top: 109px;
+}
+img.logo{
+  height: 92px;
+  width: auto;
+}
+
+input[type="button" i], input[type="submit" i]{
+  -webkit-appearance: push-button;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+  height: 36px;
+  font-size: 13;
+  font-family: arial, sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  text-decoration: none;
+  padding-left: 3px;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+div.footer{
+  display: block;
+  color: black;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+div.fLeft{
+  float: left;
+  padding-left: 15px;
+}
+
+div.fRight{
+float: right;
+padding-right: 15px;
+}
+body{
+  margin: 0;
+}
